@@ -14,12 +14,12 @@ void main(List<String> args) {
   print('The type of $str is a String? ${str is String}');
 
   // Reassignable variables
-  var userName = 'fireship';
-  userName = 'fireship_dev';
+  var username = 'fireship';
+  username = 'fireship_dev';
 
   // final means the value can't be changed
-  final String fullName = 'Jeffrey';
-  // fullName = 'Jefferson' // error;
+  final String fullname = 'Jeffrey';
+  // fullname = 'Jefferson' // error;
 
   // const is like final, but is an immutable compile-time constant
   const int age = 75;
