@@ -1,4 +1,7 @@
-void main(List<String> args) {}
+void main(List<String> args) {
+  Pug pug = Pug();
+  pug.walk();
+}
 
 abstract class Dog {
   void walk() {
